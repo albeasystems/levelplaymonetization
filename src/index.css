@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+/* One theme: graphite, one accent (the app's blue).
+   Shape rule: interactive 12px, containers 24px, device frames follow the iPhone. */
+@theme {
+  --font-sans: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono Variable", ui-monospace, SFMono-Regular, monospace;
+
+  --color-bg: #0c0e11;
+  --color-surface: #13161b;
+  --color-surface-2: #191d24;
+  --color-line: #262b33;
+  --color-text: #e9ecf0;
+  --color-muted: #98a1ad;
+  --color-accent: #2459e6;
+  --color-accent-text: #8fb0ff;
+
+  /* Data colours, lifted from the app's charts. Used only as a legend for ad types. */
+  --color-banner: #1a6cf0;
+  --color-interstitial: #f28c00;
+  --color-rewarded: #12a28a;
+
+  --radius-control: 12px;
+  --radius-panel: 24px;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-bg);
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent-text);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.snap-row {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Legal and support pages: long-form reading. Measure 65ch, clear steps between levels. */
+.legal {
+  max-width: 44rem;
+  margin-inline: auto;
+  padding: 5rem 1.5rem 7rem;
+}
+.legal h1 {
+  font-size: clamp(2.25rem, 6vw, 3.25rem);
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+.legal .meta {
+  margin-top: 1rem;
+  color: var(--color-muted);
+}
+.legal h2 {
+  margin-top: 3.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  scroll-margin-top: 5rem;
+}
+.legal p,
+.legal li {
+  color: var(--color-muted);
+  line-height: 1.75;
+}
+.legal p {
+  margin-top: 1rem;
+  max-width: 65ch;
+}
+.legal ul {
+  margin-top: 1rem;
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+.legal li {
+  margin-top: 0.5rem;
+  padding-left: 0.25rem;
+}
+.legal strong {
+  color: var(--color-text);
+  font-weight: 500;
+}
+.legal a {
+  color: var(--color-accent-text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.legal a:hover {
+  color: var(--color-text);
+}
+.legal details {
+  border-top: 1px solid var(--color-line);
+}
+.legal details:last-of-type {
+  border-bottom: 1px solid var(--color-line);
+}
+.legal summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1.25rem 0;
+  min-height: 44px;
+  color: var(--color-text);
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.legal summary::-webkit-details-marker {
+  display: none;
+}
+.legal summary::after {
+  content: "+";
+  font-family: var(--font-mono);
+  color: var(--color-muted);
+}
+.legal details[open] summary::after {
+  content: "-";
+}
+.legal details > p:first-of-type {
+  margin-top: 0;
+  padding-bottom: 1.25rem;
+}
