@@ -1,6 +1,6 @@
 import { motion, useReducedMotion } from "motion/react";
 import { useEffect, useRef } from "react";
-import { AppleLogo, Translate, CaretDown } from "@phosphor-icons/react";
+import { AppleLogo, Globe, CaretDown } from "@phosphor-icons/react";
 import { t, langHref, current } from "./i18n.js";
 
 export const APP_STORE_URL = "https://apps.apple.com/app/id6819292116";
@@ -80,7 +80,7 @@ export function LangMenu() {
         aria-label={t.ui.language}
         className="flex h-11 cursor-pointer list-none items-center gap-1.5 rounded-control border border-line px-3 text-sm text-text transition-colors hover:bg-surface-2 [&::-webkit-details-marker]:hidden"
       >
-        <Translate size={18} aria-hidden="true" />
+        <Globe size={18} aria-hidden="true" />
         <span lang={current.htmlLang} className="min-[560px]:hidden">{(current.slug || "en").toUpperCase()}</span>
         <span lang={current.htmlLang} className="hidden min-[560px]:inline">{current.name}</span>
         <CaretDown size={12} weight="bold" aria-hidden="true" className="text-muted" />
