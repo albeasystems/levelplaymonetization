@@ -6,7 +6,9 @@ import { fileURLToPath } from "node:url";
 
 const web = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const dir = (c) => resolve(web, "content", c);
-const codes = readdirSync(resolve(web, "content")).filter((c) => c !== "en");
+const codes = readdirSync(resolve(web, "content"), { withFileTypes: true })
+  .filter((d) => d.isDirectory() && d.name !== "en")
+  .map((d) => d.name);
 const en = JSON.parse(readFileSync(resolve(dir("en"), "site.json"), "utf8"));
 const ALLOWED_SAME = new Set([
   // brand/metric names and words that are the same in some languages (loanwords)
