@@ -4,8 +4,10 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 127.0.0.1 --port 5173",
-    "build": "vite build",
+    "pages": "node scripts/build-pages.mjs",
+    "check": "node scripts/check-content.mjs",
+    "dev": "node scripts/build-pages.mjs && vite --host 127.0.0.1 --port 5173",
+    "build": "node scripts/build-pages.mjs && vite build",
     "preview": "vite preview --host 127.0.0.1 --port 4173",
     "shots": "node scripts/optimize-shots.mjs",
     "icons": "node scripts/make-icons.mjs"

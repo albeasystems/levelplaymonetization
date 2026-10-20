@@ -1,0 +1,98 @@
+{
+  "name": "日本語",
+  "htmlLang": "ja",
+  "dir": "ltr",
+  "ui": {
+    "home": "levelplaymonetization ホーム",
+    "navPrimary": "メイン",
+    "navSections": "セクション",
+    "navLegal": "法的情報",
+    "navFooter": "フッター",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる",
+    "language": "言語",
+    "getApp": "無料アプリを入手",
+    "privacy": "プライバシー",
+    "terms": "利用規約",
+    "support": "サポート",
+    "disclaimer": "levelplaymonetization は独立したアプリであり、Unity および LevelPlay とは提携していません。"
+  },
+  "landing": {
+    "title": "levelplaymonetization · iPhone向け広告収益アナリティクス",
+    "description": "Unity LevelPlay の収益、eCPM、ARPDAU、フィルレートを、アプリ・広告タイプ・ネットワーク・国別に確認。認証情報はiPhoneのキーチェーンに保存されます。",
+    "ogDescription": "広告が本当はいくら稼いでいるのかを見える化。iPhone向け広告収益アナリティクス。",
+    "nav": { "privacy": "プライバシー", "breakdowns": "内訳", "tools": "ツール", "pro": "Pro" },
+    "hero": {
+      "title": "広告の収益を、国ごとに把握する。",
+      "text": "Unity LevelPlay のパブリッシャー向け。アプリ・ネットワーク・国別の収益、eCPM、フィルレート。キーはキーチェーンに保管されます。",
+      "altApps": "各アプリの収益、eCPM、フィルレート、広告タイプの構成を一覧表示したアプリ画面",
+      "altOverview": "広告タイプ別の積み上げグラフと週間収益を表示した概要画面"
+    },
+    "attention": {
+      "label": "米国における Unity Ads の eCPM",
+      "note": "デモデータで表示した、概要画面のアラートです。",
+      "line1": "開いて、",
+      "line2": "何が変わったかを確認。",
+      "text": "概要画面は、注意が必要な項目から始まります。ある国でのeCPMの低下や、ARPDAUが最も高い市場など、根拠となる数値も一緒に表示されます。",
+      "altBreakdown": "上位の国と広告タイプ別の収益。それぞれ前の期間との増減つき",
+      "altAttention": "注意が必要な項目：米国の Unity Ads の eCPM が39%低下"
+    },
+    "privacy": {
+      "title1": "キーは",
+      "title2": "あなたのiPhoneの中だけに。",
+      "items": [
+        { "t": "まずはデモデータから", "d": "最初はデモデータで開くので、何も接続せずに中身を確かめられます。" },
+        { "t": "キーチェーンにのみ保存", "d": "LevelPlay の Secret Key と Refresh Token は iPhone のキーチェーンに保存されます。" },
+        { "t": "アカウント登録は不要", "d": "バックエンドはありません。アプリはお使いのデバイスから直接 LevelPlay と通信します。" },
+        { "t": "ほかに通信する先", "d": "為替レートは frankfurter.dev から取得します。無料版の広告SDKはそれぞれのポリシーに従い、同意の確認が表示されます。" }
+      ],
+      "link": "プライバシーポリシー全文を読む"
+    },
+    "breakdowns": {
+      "title": "あらゆる切り口で収益を見る。",
+      "text": "今日、7日、30日、90日を切り替え、アプリや広告タイプで絞り込み、前の期間と比較できます。",
+      "legendLabel": "広告タイプとグラフで使用している色",
+      "banner": "バナー",
+      "interstitial": "インタースティシャル",
+      "rewarded": "リワード",
+      "screens": "画面",
+      "cuts": [
+        { "img": "apps", "title": "アプリ", "text": "各アプリの推移、広告タイプの構成、主要指標。", "alt": "アプリ一覧" },
+        { "img": "app-detail", "title": "アプリ詳細", "text": "バナー、インタースティシャル、リワード別に積み上げた日次収益。", "alt": "収益グラフと主要指標を表示した Pixel Quest の詳細" },
+        { "img": "countries-map", "title": "国", "text": "収益、eCPM、ARPDAU、フィルレートに応じてサイズが変わる地図。", "alt": "国ごとの収益に応じたサイズの円を表示した世界地図" },
+        { "img": "countries-matrix", "title": "アプリ × 国", "text": "各アプリが最も稼ぐ場所がわかるマトリクス。", "alt": "アプリと国ごとの収益マトリクス。色が濃いほど高い" },
+        { "img": "networks", "title": "ネットワーク", "text": "AdMob、Unity Ads、Meta Audience Network の収益シェアとランキング。", "alt": "AdMob、Unity Ads、Meta Audience Network の収益シェアのドーナツグラフとネットワークランキング" }
+      ]
+    },
+    "tools": {
+      "title": "アラート、レポート、そしてその裏付けとなる指標。",
+      "alertsTitle": "数値が落ちたらアラート",
+      "alertsText": "「eCPMが20%下落」のようなルールを、アプリ、国、ネットワーク、広告タイプ別に設定できます。Proに含まれます。",
+      "alertsAlt": "アラートルールの編集画面：指標はeCPM、条件は下落、値は20パーセント",
+      "reportsTitle": "PDF・CSVレポート",
+      "reportsText": "収益、指標、注意が必要な項目をまとめた見やすい収益化レポートを共有できます。Proに含まれます。",
+      "reportsAlt": "収益グラフと主要指標を含む収益化レポートのプレビュー",
+      "metricsTitle": "7つの指標を、それぞれ解説",
+      "metricsText": "どの画面でも情報アイコンをタップすると、指標の計算方法を確認できます。",
+      "metrics": ["eCPM", "ARPDAU", "フィルレート", "表示率", "インプレッション", "インプレッション/DAU", "CTR"],
+      "languagesTitle": "12言語に対応"
+    },
+    "pricing": {
+      "title": "無料で使える。Proなら広告なし。",
+      "free": "無料",
+      "freeItems": [
+        "概要、アプリ、国、ネットワーク",
+        "デモデータ、またはお持ちの LevelPlay アカウント",
+        "広告あり。リワード動画を見ると1時間広告が非表示に"
+      ],
+      "pro": "Pro、買い切り、サブスクリプションなし",
+      "proItems": ["広告なし", "カスタムアラート", "PDF・CSVレポート"],
+      "price": "価格は App Store に表示されます。"
+    },
+    "cta": {
+      "title": "LevelPlay のデータを、iPhone で。",
+      "qrAlt": "App Store のページを開く QR コード",
+      "qrText": "iPhoneでスキャンして App Store を開きます。"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Français",
+  "htmlLang": "fr",
+  "dir": "ltr",
+  "ui": {
+    "home": "Accueil levelplaymonetization",
+    "navPrimary": "Principale",
+    "navSections": "Sections",
+    "navLegal": "Mentions légales",
+    "navFooter": "Pied de page",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "language": "Langue",
+    "getApp": "Obtenir l’app gratuite",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "support": "Assistance",
+    "disclaimer": "levelplaymonetization est une app indépendante. Elle n’est affiliée ni à Unity ni à LevelPlay."
+  },
+  "landing": {
+    "title": "levelplaymonetization · Analyse des revenus publicitaires pour iPhone",
+    "description": "Revenus, eCPM, ARPDAU et taux de remplissage d’Unity LevelPlay, par app, type de pub, réseau et pays. Vos identifiants restent dans le trousseau de votre iPhone.",
+    "ogDescription": "Voyez ce que rapporte vraiment chaque pub. Analyse des revenus publicitaires pour iPhone.",
+    "nav": { "privacy": "Confidentialité", "breakdowns": "Détails", "tools": "Outils", "pro": "Pro" },
+    "hero": {
+      "title": "Sachez ce que rapportent vos pubs, pays par pays.",
+      "text": "Pour les éditeurs Unity LevelPlay. Revenus, eCPM et taux de remplissage par app, réseau et pays. Vos clés restent dans votre trousseau.",
+      "altApps": "Écran Apps listant chaque app avec ses revenus, son eCPM, son taux de remplissage et la répartition des types de pub",
+      "altOverview": "Écran Aperçu affichant les revenus hebdomadaires avec un graphique empilé par type de pub"
+    },
+    "attention": {
+      "label": "eCPM d’Unity Ads aux États-Unis",
+      "note": "Une alerte de l’Aperçu, affichée avec des données de démonstration.",
+      "line1": "Ouvrez-la.",
+      "line2": "Voyez ce qui a changé.",
+      "text": "L’Aperçu commence par ce qui demande votre attention : une baisse d’eCPM dans un pays, votre meilleur marché en ARPDAU, chacun avec les chiffres à l’appui.",
+      "altBreakdown": "Principaux pays et revenus par type de pub, chacun avec sa variation par rapport à la période précédente",
+      "altAttention": "Ce qui demande votre attention : l’eCPM d’Unity Ads aux États-Unis est en baisse de 39 pour cent"
+    },
+    "privacy": {
+      "title1": "Vos clés restent ",
+      "title2": "sur votre iPhone.",
+      "items": [
+        { "t": "D’abord des données de démo", "d": "L’app s’ouvre avec des données de démonstration, pour que vous puissiez explorer avant de connecter quoi que ce soit." },
+        { "t": "Trousseau uniquement", "d": "Votre Secret Key et votre Refresh Token LevelPlay sont stockés dans le trousseau de l’iPhone." },
+        { "t": "Aucun compte chez nous", "d": "Il n’y a pas de serveur. L’app dialogue directement avec LevelPlay depuis votre appareil." },
+        { "t": "Ce qui est contacté d’autre", "d": "Les taux de change viennent de frankfurter.dev. Les SDK publicitaires de la version gratuite suivent leurs propres politiques, et votre consentement vous est demandé." }
+      ],
+      "link": "Lire la politique de confidentialité complète"
+    },
+    "breakdowns": {
+      "title": "Toutes les coupes de vos revenus.",
+      "text": "Passez d’aujourd’hui à 7, 30 et 90 jours, filtrez par app ou type de pub, et comparez avec la période précédente.",
+      "legendLabel": "Types de pub, avec les couleurs utilisées dans les graphiques",
+      "banner": "Bannière",
+      "interstitial": "Interstitiel",
+      "rewarded": "Récompensé",
+      "screens": "Écrans",
+      "cuts": [
+        { "img": "apps", "title": "Apps", "text": "Chaque app avec sa tendance, la répartition des types de pub et ses indicateurs clés.", "alt": "Liste des apps" },
+        { "img": "app-detail", "title": "Détail d’une app", "text": "Revenus quotidiens empilés par bannière, interstitiel et récompensé.", "alt": "Détail de Pixel Quest avec graphique des revenus et indicateurs clés" },
+        { "img": "countries-map", "title": "Pays", "text": "Une carte dimensionnée selon les revenus, l’eCPM, l’ARPDAU ou le taux de remplissage.", "alt": "Carte du monde avec des bulles dimensionnées selon les revenus de chaque pays" },
+        { "img": "countries-matrix", "title": "App par pays", "text": "La matrice qui montre où chaque app gagne le plus.", "alt": "Matrice des revenus par app et par pays ; plus foncé signifie plus élevé" },
+        { "img": "networks", "title": "Réseaux", "text": "Part des revenus et classement pour AdMob, Unity Ads et Meta Audience Network.", "alt": "Graphique en anneau de la part des revenus et classement des réseaux AdMob, Unity Ads et Meta Audience Network" }
+      ]
+    },
+    "tools": {
+      "title": "Alertes, rapports et les indicateurs qui les alimentent.",
+      "alertsTitle": "Des alertes quand un chiffre décroche",
+      "alertsText": "Créez une règle comme « l’eCPM baisse de 20 % », pour n’importe quelle app, pays, réseau ou type de pub. Inclus dans Pro.",
+      "alertsAlt": "Éditeur de règle d’alerte : indicateur eCPM, condition baisse de, valeur 20 pour cent",
+      "reportsTitle": "Rapports PDF et CSV",
+      "reportsText": "Partagez un rapport de monétisation clair avec revenus, indicateurs et ce qui demande votre attention. Inclus dans Pro.",
+      "reportsAlt": "Aperçu du rapport de monétisation avec graphique des revenus et indicateurs clés",
+      "metricsTitle": "Sept indicateurs, chacun expliqué",
+      "metricsText": "Touchez l’icône d’information sur n’importe quel écran pour voir comment un indicateur est calculé.",
+      "metrics": ["eCPM", "ARPDAU", "Taux de remplissage", "Taux d’affichage", "Impressions", "Impr. / DAU", "CTR"],
+      "languagesTitle": "Douze langues"
+    },
+    "pricing": {
+      "title": "Gratuit. Pro supprime les pubs.",
+      "free": "Gratuit",
+      "freeItems": [
+        "Aperçu, Apps, Pays et Réseaux",
+        "Données de démo, ou votre compte LevelPlay réel",
+        "Des pubs, avec une vidéo récompensée qui vous offre 1 heure sans pub"
+      ],
+      "pro": "Pro, un seul achat, sans abonnement",
+      "proItems": ["Aucune pub", "Alertes personnalisées", "Rapports PDF et CSV"],
+      "price": "Le prix est affiché dans l’App Store."
+    },
+    "cta": {
+      "title": "Emportez vos données LevelPlay sur votre iPhone.",
+      "qrAlt": "QR code qui ouvre la page de l’App Store",
+      "qrText": "Scannez avec votre iPhone pour ouvrir l’App Store."
+    }
+  }
+}

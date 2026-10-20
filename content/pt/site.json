@@ -1,0 +1,98 @@
+{
+  "name": "Português",
+  "htmlLang": "pt",
+  "dir": "ltr",
+  "ui": {
+    "home": "Página inicial do levelplaymonetization",
+    "navPrimary": "Principal",
+    "navSections": "Seções",
+    "navLegal": "Legal",
+    "navFooter": "Rodapé",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "language": "Idioma",
+    "getApp": "Baixe o app grátis",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "support": "Suporte",
+    "disclaimer": "levelplaymonetization é um app independente. Sem afiliação com a Unity ou a LevelPlay."
+  },
+  "landing": {
+    "title": "levelplaymonetization · Análise de receita de anúncios para iPhone",
+    "description": "Receita, eCPM, ARPDAU e taxa de preenchimento do Unity LevelPlay, por app, tipo de anúncio, rede e país. As credenciais ficam no Chaveiro do seu iPhone.",
+    "ogDescription": "Veja quanto cada anúncio realmente rende. Análise de receita de anúncios para iPhone.",
+    "nav": { "privacy": "Privacidade", "breakdowns": "Detalhamentos", "tools": "Ferramentas", "pro": "Pro" },
+    "hero": {
+      "title": "Saiba quanto seus anúncios rendem, país por país.",
+      "text": "Para publishers do Unity LevelPlay. Receita, eCPM e taxa de preenchimento por app, rede e país. Suas chaves ficam no Chaveiro.",
+      "altApps": "Tela Apps listando cada app com receita, eCPM, taxa de preenchimento e mix de tipos de anúncio",
+      "altOverview": "Tela Visão geral mostrando a receita semanal com um gráfico empilhado por tipo de anúncio"
+    },
+    "attention": {
+      "label": "eCPM do Unity Ads nos Estados Unidos",
+      "note": "Um alerta da Visão geral, exibido com dados de demonstração.",
+      "line1": "Abra.",
+      "line2": "Veja o que mudou.",
+      "text": "A Visão geral começa pelo que precisa de atenção: uma queda de eCPM em um país, seu melhor mercado por ARPDAU, cada um com os números por trás.",
+      "altBreakdown": "Principais países e receita por tipo de anúncio, cada um com a variação em relação ao período anterior",
+      "altAttention": "O que precisa de atenção: o eCPM do Unity Ads nos Estados Unidos caiu 39 por cento"
+    },
+    "privacy": {
+      "title1": "Suas chaves ficam ",
+      "title2": "no seu iPhone.",
+      "items": [
+        { "t": "Primeiro, dados de demonstração", "d": "O app abre com dados de demonstração, para você explorar antes de conectar qualquer coisa." },
+        { "t": "Só no Chaveiro", "d": "Sua Secret Key e seu Refresh Token do LevelPlay ficam guardados no Chaveiro do iPhone." },
+        { "t": "Sem conta conosco", "d": "Não há backend. O app fala com o LevelPlay diretamente do seu dispositivo." },
+        { "t": "Com o que mais ele se conecta", "d": "As taxas de câmbio vêm do frankfurter.dev. Os SDKs de anúncios da versão gratuita seguem suas próprias políticas, e você é consultado sobre o consentimento." }
+      ],
+      "link": "Leia a Política de Privacidade completa"
+    },
+    "breakdowns": {
+      "title": "Todos os recortes da sua receita.",
+      "text": "Alterne entre hoje, 7, 30 e 90 dias, filtre por app ou tipo de anúncio e compare com o período anterior.",
+      "legendLabel": "Tipos de anúncio, com as cores usadas nos gráficos",
+      "banner": "Banner",
+      "interstitial": "Intersticial",
+      "rewarded": "Premiado",
+      "screens": "Telas",
+      "cuts": [
+        { "img": "apps", "title": "Apps", "text": "Cada app com sua tendência, mix de tipos de anúncio e métricas principais.", "alt": "Lista de apps" },
+        { "img": "app-detail", "title": "Detalhe do app", "text": "Receita diária empilhada por banner, intersticial e premiado.", "alt": "Detalhe do Pixel Quest com gráfico de receita e métricas principais" },
+        { "img": "countries-map", "title": "Países", "text": "Um mapa dimensionado por receita, eCPM, ARPDAU ou taxa de preenchimento.", "alt": "Mapa-múndi com bolhas dimensionadas pela receita de cada país" },
+        { "img": "countries-matrix", "title": "App por país", "text": "A matriz que mostra onde cada app ganha mais.", "alt": "Matriz de receita por app e país; mais escuro significa mais alto" },
+        { "img": "networks", "title": "Redes", "text": "Participação na receita e ranking de AdMob, Unity Ads e Meta Audience Network.", "alt": "Gráfico de rosca da participação na receita e ranking das redes AdMob, Unity Ads e Meta Audience Network" }
+      ]
+    },
+    "tools": {
+      "title": "Alertas, relatórios e as métricas por trás deles.",
+      "alertsTitle": "Alertas quando um número cai",
+      "alertsText": "Crie uma regra como “o eCPM cai 20%”, para qualquer app, país, rede ou tipo de anúncio. Incluído no Pro.",
+      "alertsAlt": "Editor de regra de alerta: métrica eCPM, condição cai, valor 20 por cento",
+      "reportsTitle": "Relatórios em PDF e CSV",
+      "reportsText": "Compartilhe um relatório de monetização limpo, com receita, métricas e o que precisa de atenção. Incluído no Pro.",
+      "reportsAlt": "Prévia do relatório de monetização com gráfico de receita e métricas principais",
+      "metricsTitle": "Sete métricas, cada uma explicada",
+      "metricsText": "Toque no ícone de informações em qualquer tela para ver como uma métrica é calculada.",
+      "metrics": ["eCPM", "ARPDAU", "Taxa de preench.", "Taxa de exibição", "Impressões", "Impr. / DAU", "CTR"],
+      "languagesTitle": "Doze idiomas"
+    },
+    "pricing": {
+      "title": "Grátis para usar. O Pro remove os anúncios.",
+      "free": "Grátis",
+      "freeItems": [
+        "Visão geral, Apps, Países e Redes",
+        "Dados de demonstração ou sua conta real do LevelPlay",
+        "Anúncios, com um vídeo premiado que dá 1 hora sem anúncios"
+      ],
+      "pro": "Pro, uma única compra, sem assinatura",
+      "proItems": ["Sem anúncios", "Alertas personalizados", "Relatórios em PDF e CSV"],
+      "price": "O preço é exibido na App Store."
+    },
+    "cta": {
+      "title": "Leve seus dados do LevelPlay para o iPhone.",
+      "qrAlt": "Código QR que abre a página da App Store",
+      "qrText": "Escaneie com o iPhone para abrir a App Store."
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "한국어",
+  "htmlLang": "ko",
+  "dir": "ltr",
+  "ui": {
+    "home": "levelplaymonetization 홈",
+    "navPrimary": "메인",
+    "navSections": "섹션",
+    "navLegal": "법적 고지",
+    "navFooter": "푸터",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "language": "언어",
+    "getApp": "무료 앱 받기",
+    "privacy": "개인정보",
+    "terms": "이용약관",
+    "support": "지원",
+    "disclaimer": "levelplaymonetization은 독립 앱이며 Unity 또는 LevelPlay와 제휴 관계가 없습니다."
+  },
+  "landing": {
+    "title": "levelplaymonetization · iPhone용 광고 수익 분석",
+    "description": "Unity LevelPlay의 수익, eCPM, ARPDAU, 채움률을 앱, 광고 유형, 네트워크, 국가별로 확인하세요. 자격 증명은 iPhone 키체인에 그대로 보관됩니다.",
+    "ogDescription": "광고 하나하나가 실제로 얼마를 버는지 확인하세요. iPhone용 광고 수익 분석.",
+    "nav": { "privacy": "개인정보", "breakdowns": "상세 분석", "tools": "도구", "pro": "Pro" },
+    "hero": {
+      "title": "광고 수익을 국가 단위까지 파악하세요.",
+      "text": "Unity LevelPlay 퍼블리셔를 위한 앱. 앱, 네트워크, 국가별 수익, eCPM, 채움률. 키는 키체인에 보관됩니다.",
+      "altApps": "각 앱의 수익, eCPM, 채움률, 광고 유형 구성을 나열한 앱 화면",
+      "altOverview": "광고 유형별 누적 차트와 주간 수익을 보여주는 개요 화면"
+    },
+    "attention": {
+      "label": "미국 Unity Ads eCPM",
+      "note": "개요 화면의 알림이며 데모 데이터로 표시됩니다.",
+      "line1": "열어서",
+      "line2": "무엇이 달라졌는지 확인하세요.",
+      "text": "개요는 주의가 필요한 항목부터 보여줍니다. 한 국가의 eCPM 하락, ARPDAU가 가장 높은 시장 등을 근거 수치와 함께 확인할 수 있습니다.",
+      "altBreakdown": "상위 국가와 광고 유형별 수익, 각각 이전 기간 대비 변화 포함",
+      "altAttention": "주의가 필요한 항목: 미국 Unity Ads eCPM이 39% 하락"
+    },
+    "privacy": {
+      "title1": "키는 ",
+      "title2": "내 iPhone에만 보관됩니다.",
+      "items": [
+        { "t": "먼저 데모 데이터로", "d": "데모 데이터로 시작하므로 아무것도 연결하기 전에 먼저 둘러볼 수 있습니다." },
+        { "t": "키체인에만 저장", "d": "LevelPlay Secret Key와 Refresh Token은 iPhone 키체인에 저장됩니다." },
+        { "t": "저희에게 계정이 필요 없음", "d": "백엔드가 없습니다. 앱이 기기에서 LevelPlay와 직접 통신합니다." },
+        { "t": "그 밖에 연결하는 곳", "d": "환율은 frankfurter.dev에서 가져옵니다. 무료 버전의 광고 SDK는 각자의 정책을 따르며, 동의 여부를 묻습니다." }
+      ],
+      "link": "개인정보 처리방침 전문 읽기"
+    },
+    "breakdowns": {
+      "title": "수익을 모든 각도에서.",
+      "text": "오늘, 7일, 30일, 90일을 전환하고 앱이나 광고 유형으로 필터링하며 이전 기간과 비교하세요.",
+      "legendLabel": "광고 유형과 차트에 사용된 색상",
+      "banner": "배너",
+      "interstitial": "전면 광고",
+      "rewarded": "보상형",
+      "screens": "화면",
+      "cuts": [
+        { "img": "apps", "title": "앱", "text": "각 앱의 추세, 광고 유형 구성, 주요 지표.", "alt": "앱 목록" },
+        { "img": "app-detail", "title": "앱 상세", "text": "배너, 전면 광고, 보상형으로 누적한 일별 수익.", "alt": "수익 차트와 주요 지표가 있는 Pixel Quest 상세 화면" },
+        { "img": "countries-map", "title": "국가", "text": "수익, eCPM, ARPDAU, 채움률에 따라 크기가 달라지는 지도.", "alt": "국가별 수익에 따라 크기가 다른 원이 표시된 세계 지도" },
+        { "img": "countries-matrix", "title": "국가별 앱", "text": "각 앱이 어디에서 가장 많이 버는지 보여주는 매트릭스.", "alt": "앱과 국가별 수익 매트릭스, 색이 진할수록 높음" },
+        { "img": "networks", "title": "네트워크", "text": "AdMob, Unity Ads, Meta Audience Network의 수익 비중과 순위.", "alt": "AdMob, Unity Ads, Meta Audience Network의 수익 비중 도넛 차트와 네트워크 순위" }
+      ]
+    },
+    "tools": {
+      "title": "알림, 보고서, 그리고 그 근거가 되는 지표.",
+      "alertsTitle": "수치가 떨어지면 알림",
+      "alertsText": "\"eCPM이 20% 하락\" 같은 규칙을 어떤 앱, 국가, 네트워크, 광고 유형에도 설정하세요. Pro에 포함됩니다.",
+      "alertsAlt": "알림 규칙 편집기: 지표 eCPM, 조건 하락 폭, 값 20퍼센트",
+      "reportsTitle": "PDF 및 CSV 보고서",
+      "reportsText": "수익, 지표, 주의가 필요한 항목을 담은 깔끔한 수익화 보고서를 공유하세요. Pro에 포함됩니다.",
+      "reportsAlt": "수익 차트와 주요 지표가 있는 수익화 보고서 미리보기",
+      "metricsTitle": "일곱 가지 지표, 각각 설명",
+      "metricsText": "어느 화면에서든 정보 아이콘을 탭하면 지표가 어떻게 계산되는지 볼 수 있습니다.",
+      "metrics": ["eCPM", "ARPDAU", "채움률", "표시율", "노출수", "노출/DAU", "CTR"],
+      "languagesTitle": "12개 언어"
+    },
+    "pricing": {
+      "title": "무료로 사용하세요. Pro는 광고를 없애 줍니다.",
+      "free": "무료",
+      "freeItems": [
+        "개요, 앱, 국가, 네트워크",
+        "데모 데이터 또는 실제 LevelPlay 계정",
+        "광고 포함, 보상형 동영상을 보면 1시간 동안 광고 없음"
+      ],
+      "pro": "Pro, 한 번만 구매, 구독 없음",
+      "proItems": ["광고 없음", "맞춤 알림", "PDF 및 CSV 보고서"],
+      "price": "가격은 App Store에 표시됩니다."
+    },
+    "cta": {
+      "title": "LevelPlay 데이터를 iPhone으로 가져오세요.",
+      "qrAlt": "App Store 페이지를 여는 QR 코드",
+      "qrText": "iPhone으로 스캔해 App Store를 여세요."
+    }
+  }
+}

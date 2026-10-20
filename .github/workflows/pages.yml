@@ -25,6 +25,9 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+        env:
+          # Absolute URL for hreflang and canonical links; change it when the site gets its own domain.
+          SITE_URL: https://albeasystems.github.io/levelplaymonetization
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

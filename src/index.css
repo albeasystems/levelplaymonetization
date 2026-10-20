@@ -162,3 +162,28 @@ body {
   margin-top: 0;
   padding-bottom: 1.25rem;
 }
+
+/* Scripts that join letters (Arabic, Devanagari) break with negative tracking. */
+:lang(ar) *,
+:lang(hi) * {
+  letter-spacing: 0 !important;
+}
+
+/* Korean wraps between words, not mid-word. */
+:lang(ko) {
+  word-break: keep-all;
+}
+
+/* Long compound words (German) must wrap instead of widening the page. */
+.legal {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Headings: long compound words (German) hyphenate or wrap instead of overflowing the screen. */
+h1,
+h2,
+h3 {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}

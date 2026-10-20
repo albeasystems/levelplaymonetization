@@ -1,0 +1,98 @@
+{
+  "name": "English",
+  "htmlLang": "en",
+  "dir": "ltr",
+  "ui": {
+    "home": "levelplaymonetization home",
+    "navPrimary": "Primary",
+    "navSections": "Sections",
+    "navLegal": "Legal",
+    "navFooter": "Footer",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "getApp": "Get the free app",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "support": "Support",
+    "disclaimer": "levelplaymonetization is an independent app. Not affiliated with Unity or LevelPlay."
+  },
+  "landing": {
+    "title": "levelplaymonetization · Ad revenue analytics for iPhone",
+    "description": "Revenue, eCPM, ARPDAU and fill rate from Unity LevelPlay, by app, ad type, network and country. Credentials stay in your iPhone Keychain.",
+    "ogDescription": "See what every ad actually earns. Ad revenue analytics for iPhone.",
+    "nav": { "privacy": "Privacy", "breakdowns": "Breakdowns", "tools": "Tools", "pro": "Pro" },
+    "hero": {
+      "title": "Know what your ads earn, down to the country.",
+      "text": "For Unity LevelPlay publishers. Revenue, eCPM and fill rate by app, network and country. Keys stay in your Keychain.",
+      "altApps": "Apps screen listing each app with revenue, eCPM, fill rate and ad type mix",
+      "altOverview": "Overview screen showing weekly revenue with a stacked chart by ad type"
+    },
+    "attention": {
+      "label": "Unity Ads eCPM in the United States",
+      "note": "An alert from the Overview, shown with demo data.",
+      "line1": "Open it.",
+      "line2": "See what changed.",
+      "text": "The Overview starts with what needs attention: an eCPM drop in one country, your best ARPDAU market, each with the numbers behind it.",
+      "altBreakdown": "Top countries and revenue by ad type, each with change against the previous period",
+      "altAttention": "What needs attention: Unity Ads eCPM in the United States is down 39 percent"
+    },
+    "privacy": {
+      "title1": "Your keys stay ",
+      "title2": "on your iPhone.",
+      "items": [
+        { "t": "Demo data first", "d": "It opens with demo data, so you can look around before you connect anything." },
+        { "t": "Keychain only", "d": "Your LevelPlay Secret Key and Refresh Token are stored in the iPhone Keychain." },
+        { "t": "No account with us", "d": "There is no backend. The app talks to LevelPlay directly from your device." },
+        { "t": "What else is contacted", "d": "Exchange rates come from frankfurter.dev. The ad SDKs in the free version follow their own policies, and you are asked for consent." }
+      ],
+      "link": "Read the full Privacy Policy"
+    },
+    "breakdowns": {
+      "title": "Every cut of your revenue.",
+      "text": "Switch between today, 7, 30 and 90 days, filter by app or ad type, and compare against the period before.",
+      "legendLabel": "Ad types, with the colours used in the charts",
+      "banner": "Banner",
+      "interstitial": "Interstitial",
+      "rewarded": "Rewarded",
+      "screens": "Screens",
+      "cuts": [
+        { "img": "apps", "title": "Apps", "text": "Each app with its trend, ad type mix and key metrics.", "alt": "Apps list" },
+        { "img": "app-detail", "title": "App detail", "text": "Daily revenue stacked by banner, interstitial and rewarded.", "alt": "Pixel Quest detail with revenue chart and key metrics" },
+        { "img": "countries-map", "title": "Countries", "text": "A map sized by revenue, eCPM, ARPDAU or fill rate.", "alt": "World map with bubbles sized by revenue per country" },
+        { "img": "countries-matrix", "title": "App by country", "text": "The matrix that shows where each app earns the most.", "alt": "Matrix of revenue by app and country, darker means higher" },
+        { "img": "networks", "title": "Networks", "text": "Revenue share and ranking for AdMob, Unity Ads and Meta Audience Network.", "alt": "Revenue share donut and network ranking for AdMob, Unity Ads and Meta Audience Network" }
+      ]
+    },
+    "tools": {
+      "title": "Alerts, reports and the metrics behind them.",
+      "alertsTitle": "Alerts when a number slips",
+      "alertsText": "Set a rule like eCPM drops by 20%, for any app, country, network or ad type. Included in Pro.",
+      "alertsAlt": "Alert rule editor: metric eCPM, condition drops by, value 20 percent",
+      "reportsTitle": "PDF and CSV reports",
+      "reportsText": "Share a clean monetization report with revenue, metrics and what needs attention. Included in Pro.",
+      "reportsAlt": "Monetization report preview with revenue chart and key metrics",
+      "metricsTitle": "Seven metrics, each explained",
+      "metricsText": "Tap the info icon on any screen to see how a metric is calculated.",
+      "metrics": ["eCPM", "ARPDAU", "Fill rate", "Show rate", "Impressions", "Imp. / DAU", "CTR"],
+      "languagesTitle": "Twelve languages"
+    },
+    "pricing": {
+      "title": "Free to use. Pro removes the ads.",
+      "free": "Free",
+      "freeItems": [
+        "Overview, Apps, Countries and Networks",
+        "Demo data, or your live LevelPlay account",
+        "Ads, with a rewarded video that gives you 1 hour ad-free"
+      ],
+      "pro": "Pro, one purchase, no subscription",
+      "proItems": ["No ads", "Custom alerts", "PDF and CSV reports"],
+      "price": "Price shown in the App Store."
+    },
+    "cta": {
+      "title": "Bring your LevelPlay data to your iPhone.",
+      "qrAlt": "QR code that opens the App Store page",
+      "qrText": "Scan with your iPhone to open the App Store."
+    }
+  }
+}

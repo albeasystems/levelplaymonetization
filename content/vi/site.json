@@ -1,0 +1,98 @@
+{
+  "name": "Tiếng Việt",
+  "htmlLang": "vi",
+  "dir": "ltr",
+  "ui": {
+    "home": "Trang chủ levelplaymonetization",
+    "navPrimary": "Chính",
+    "navSections": "Các phần",
+    "navLegal": "Pháp lý",
+    "navFooter": "Chân trang",
+    "openMenu": "Mở menu",
+    "closeMenu": "Đóng menu",
+    "language": "Ngôn ngữ",
+    "getApp": "Tải ứng dụng miễn phí",
+    "privacy": "Quyền riêng tư",
+    "terms": "Điều khoản",
+    "support": "Hỗ trợ",
+    "disclaimer": "levelplaymonetization là ứng dụng độc lập, không liên kết với Unity hay LevelPlay."
+  },
+  "landing": {
+    "title": "levelplaymonetization · Phân tích doanh thu quảng cáo cho iPhone",
+    "description": "Doanh thu, eCPM, ARPDAU và tỷ lệ lấp đầy từ Unity LevelPlay, theo ứng dụng, loại quảng cáo, mạng và quốc gia. Thông tin xác thực luôn nằm trong Keychain trên iPhone của bạn.",
+    "ogDescription": "Xem mỗi quảng cáo thực sự kiếm được bao nhiêu. Phân tích doanh thu quảng cáo cho iPhone.",
+    "nav": { "privacy": "Quyền riêng tư", "breakdowns": "Chi tiết", "tools": "Công cụ", "pro": "Pro" },
+    "hero": {
+      "title": "Biết quảng cáo kiếm được bao nhiêu, chi tiết đến từng quốc gia.",
+      "text": "Dành cho nhà phát hành Unity LevelPlay. Doanh thu, eCPM và tỷ lệ lấp đầy theo ứng dụng, mạng và quốc gia. Khóa của bạn nằm trong Keychain.",
+      "altApps": "Màn hình Ứng dụng liệt kê từng ứng dụng với doanh thu, eCPM, tỷ lệ lấp đầy và cơ cấu loại quảng cáo",
+      "altOverview": "Màn hình Tổng quan hiển thị doanh thu tuần cùng biểu đồ cột chồng theo loại quảng cáo"
+    },
+    "attention": {
+      "label": "eCPM của Unity Ads tại Hoa Kỳ",
+      "note": "Một cảnh báo từ Tổng quan, hiển thị bằng dữ liệu demo.",
+      "line1": "Mở ra.",
+      "line2": "Xem điều gì đã thay đổi.",
+      "text": "Tổng quan bắt đầu bằng những gì cần chú ý: eCPM giảm ở một quốc gia, thị trường có ARPDAU tốt nhất của bạn, mỗi mục đều kèm số liệu phía sau.",
+      "altBreakdown": "Các quốc gia hàng đầu và doanh thu theo loại quảng cáo, mỗi mục kèm mức thay đổi so với giai đoạn trước",
+      "altAttention": "Cần chú ý: eCPM của Unity Ads tại Hoa Kỳ giảm 39 phần trăm"
+    },
+    "privacy": {
+      "title1": "Khóa của bạn nằm ",
+      "title2": "trên iPhone của bạn.",
+      "items": [
+        { "t": "Dữ liệu demo trước tiên", "d": "Ứng dụng mở ra với dữ liệu demo, để bạn xem thử trước khi kết nối bất cứ thứ gì." },
+        { "t": "Chỉ trong Keychain", "d": "Secret Key và Refresh Token LevelPlay của bạn được lưu trong Keychain của iPhone." },
+        { "t": "Không cần tài khoản với chúng tôi", "d": "Không có máy chủ phụ trợ. Ứng dụng giao tiếp trực tiếp với LevelPlay từ thiết bị của bạn." },
+        { "t": "Còn kết nối đến đâu nữa", "d": "Tỷ giá lấy từ frankfurter.dev. Các SDK quảng cáo trong bản miễn phí tuân theo chính sách riêng của chúng, và bạn sẽ được hỏi ý kiến đồng ý." }
+      ],
+      "link": "Đọc toàn bộ Chính sách quyền riêng tư"
+    },
+    "breakdowns": {
+      "title": "Mọi góc nhìn về doanh thu của bạn.",
+      "text": "Chuyển giữa hôm nay, 7, 30 và 90 ngày, lọc theo ứng dụng hoặc loại quảng cáo, và so sánh với giai đoạn trước.",
+      "legendLabel": "Các loại quảng cáo, kèm màu dùng trong biểu đồ",
+      "banner": "Banner",
+      "interstitial": "Xen kẽ",
+      "rewarded": "Có thưởng",
+      "screens": "Màn hình",
+      "cuts": [
+        { "img": "apps", "title": "Ứng dụng", "text": "Từng ứng dụng với xu hướng, cơ cấu loại quảng cáo và các chỉ số chính.", "alt": "Danh sách ứng dụng" },
+        { "img": "app-detail", "title": "Chi tiết ứng dụng", "text": "Doanh thu hằng ngày xếp chồng theo banner, xen kẽ và có thưởng.", "alt": "Chi tiết Pixel Quest với biểu đồ doanh thu và các chỉ số chính" },
+        { "img": "countries-map", "title": "Quốc gia", "text": "Bản đồ có kích thước theo doanh thu, eCPM, ARPDAU hoặc tỷ lệ lấp đầy.", "alt": "Bản đồ thế giới với các bong bóng có kích thước theo doanh thu từng quốc gia" },
+        { "img": "countries-matrix", "title": "Ứng dụng theo quốc gia", "text": "Ma trận cho thấy mỗi ứng dụng kiếm được nhiều nhất ở đâu.", "alt": "Ma trận doanh thu theo ứng dụng và quốc gia, màu càng đậm càng cao" },
+        { "img": "networks", "title": "Mạng", "text": "Tỷ trọng doanh thu và xếp hạng của AdMob, Unity Ads và Meta Audience Network.", "alt": "Biểu đồ vành khuyên tỷ trọng doanh thu và xếp hạng mạng của AdMob, Unity Ads và Meta Audience Network" }
+      ]
+    },
+    "tools": {
+      "title": "Cảnh báo, báo cáo và các chỉ số đằng sau chúng.",
+      "alertsTitle": "Cảnh báo khi một con số tụt xuống",
+      "alertsText": "Đặt quy tắc như “eCPM giảm 20%”, cho bất kỳ ứng dụng, quốc gia, mạng hay loại quảng cáo nào. Có trong Pro.",
+      "alertsAlt": "Trình chỉnh sửa quy tắc cảnh báo: chỉ số eCPM, điều kiện giảm, giá trị 20 phần trăm",
+      "reportsTitle": "Báo cáo PDF và CSV",
+      "reportsText": "Chia sẻ báo cáo kiếm tiền gọn gàng với doanh thu, các chỉ số và những gì cần chú ý. Có trong Pro.",
+      "reportsAlt": "Xem trước báo cáo kiếm tiền với biểu đồ doanh thu và các chỉ số chính",
+      "metricsTitle": "Bảy chỉ số, mỗi chỉ số đều có giải thích",
+      "metricsText": "Chạm vào biểu tượng thông tin trên bất kỳ màn hình nào để xem cách tính một chỉ số.",
+      "metrics": ["eCPM", "ARPDAU", "Tỷ lệ lấp đầy", "Tỷ lệ hiển thị", "Lượt hiển thị", "Lượt HT / DAU", "CTR"],
+      "languagesTitle": "Mười hai ngôn ngữ"
+    },
+    "pricing": {
+      "title": "Dùng miễn phí. Pro gỡ bỏ quảng cáo.",
+      "free": "Miễn phí",
+      "freeItems": [
+        "Tổng quan, Ứng dụng, Quốc gia và Mạng",
+        "Dữ liệu demo, hoặc tài khoản LevelPlay thật của bạn",
+        "Có quảng cáo, kèm một video có thưởng giúp bạn không quảng cáo trong 1 giờ"
+      ],
+      "pro": "Pro, mua một lần, không đăng ký định kỳ",
+      "proItems": ["Không quảng cáo", "Cảnh báo tùy chỉnh", "Báo cáo PDF và CSV"],
+      "price": "Giá hiển thị trong App Store."
+    },
+    "cta": {
+      "title": "Mang dữ liệu LevelPlay của bạn lên iPhone.",
+      "qrAlt": "Mã QR mở trang App Store",
+      "qrText": "Quét bằng iPhone để mở App Store."
+    }
+  }
+}

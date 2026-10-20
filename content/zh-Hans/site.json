@@ -1,0 +1,98 @@
+{
+  "name": "简体中文",
+  "htmlLang": "zh-Hans",
+  "dir": "ltr",
+  "ui": {
+    "home": "levelplaymonetization 首页",
+    "navPrimary": "主导航",
+    "navSections": "页面分区",
+    "navLegal": "法律信息",
+    "navFooter": "页脚",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "language": "语言",
+    "getApp": "免费获取应用",
+    "privacy": "隐私",
+    "terms": "条款",
+    "support": "支持",
+    "disclaimer": "levelplaymonetization 是一款独立应用，与 Unity 或 LevelPlay 无任何关联。"
+  },
+  "landing": {
+    "title": "levelplaymonetization · 适用于 iPhone 的广告收入分析",
+    "description": "来自 Unity LevelPlay 的收入、eCPM、ARPDAU 和填充率，可按应用、广告类型、网络和国家查看。凭据始终保存在你 iPhone 的钥匙串中。",
+    "ogDescription": "看清每条广告到底赚了多少。适用于 iPhone 的广告收入分析。",
+    "nav": { "privacy": "隐私", "breakdowns": "明细", "tools": "工具", "pro": "Pro" },
+    "hero": {
+      "title": "看清广告收入，细到每个国家。",
+      "text": "为 Unity LevelPlay 发布者打造。按应用、网络和国家查看收入、eCPM 和填充率。密钥始终留在你的钥匙串中。",
+      "altApps": "应用页面，列出每个应用的收入、eCPM、填充率和广告类型占比",
+      "altOverview": "概览页面，显示每周收入，以及按广告类型堆叠的图表"
+    },
+    "attention": {
+      "label": "美国地区 Unity Ads 的 eCPM",
+      "note": "来自概览的一条提醒，使用演示数据展示。",
+      "line1": "点开它。",
+      "line2": "看看发生了什么变化。",
+      "text": "概览从需要关注的内容开始：某个国家的 eCPM 下滑、你 ARPDAU 最高的市场，每一项都附有背后的数据。",
+      "altBreakdown": "主要国家和按广告类型划分的收入，每项都显示与上一周期相比的变化",
+      "altAttention": "需要关注：美国地区 Unity Ads 的 eCPM 下降了 39%"
+    },
+    "privacy": {
+      "title1": "你的密钥留在 ",
+      "title2": "你的 iPhone 上。",
+      "items": [
+        { "t": "先用演示数据", "d": "应用打开时显示演示数据，让你在连接任何账号之前先随便看看。" },
+        { "t": "只存于钥匙串", "d": "你的 LevelPlay Secret Key 和 Refresh Token 存储在 iPhone 钥匙串中。" },
+        { "t": "无需在我们这里注册账号", "d": "没有后端服务器。应用直接从你的设备与 LevelPlay 通信。" },
+        { "t": "还会连接哪些服务", "d": "汇率来自 frankfurter.dev。免费版中的广告 SDK 遵循各自的政策，并且会征求你的同意。" }
+      ],
+      "link": "阅读完整隐私政策"
+    },
+    "breakdowns": {
+      "title": "从每个角度看你的收入。",
+      "text": "在今天、7 天、30 天和 90 天之间切换，按应用或广告类型筛选，并与上一周期对比。",
+      "legendLabel": "广告类型，及图表中使用的颜色",
+      "banner": "横幅",
+      "interstitial": "插屏",
+      "rewarded": "激励视频",
+      "screens": "页面截图",
+      "cuts": [
+        { "img": "apps", "title": "应用", "text": "每个应用的趋势、广告类型占比和关键指标。", "alt": "应用列表" },
+        { "img": "app-detail", "title": "应用详情", "text": "按横幅、插屏和激励视频堆叠的每日收入。", "alt": "Pixel Quest 的详情页，含收入图表和关键指标" },
+        { "img": "countries-map", "title": "国家", "text": "按收入、eCPM、ARPDAU 或填充率调整大小的地图。", "alt": "世界地图，气泡大小代表各国收入" },
+        { "img": "countries-matrix", "title": "按国家查看应用", "text": "一目了然地看出每个应用在哪里赚得最多的矩阵。", "alt": "按应用和国家划分的收入矩阵，颜色越深数值越高" },
+        { "img": "networks", "title": "网络", "text": "AdMob、Unity Ads 和 Meta Audience Network 的收入占比与排名。", "alt": "AdMob、Unity Ads 和 Meta Audience Network 的收入占比环形图与网络排名" }
+      ]
+    },
+    "tools": {
+      "title": "提醒、报告，以及背后的指标。",
+      "alertsTitle": "数据下滑时及时提醒",
+      "alertsText": "设置类似“eCPM 下降 20%”的规则，可针对任意应用、国家、网络或广告类型。包含在 Pro 中。",
+      "alertsAlt": "提醒规则编辑器：指标 eCPM，条件为下降，数值 20%",
+      "reportsTitle": "PDF 和 CSV 报告",
+      "reportsText": "分享一份清晰的变现报告，包含收入、指标以及需要关注的内容。包含在 Pro 中。",
+      "reportsAlt": "变现报告预览，含收入图表和关键指标",
+      "metricsTitle": "七项指标，逐一说明",
+      "metricsText": "在任意页面点按信息图标，即可查看指标的计算方式。",
+      "metrics": ["eCPM", "ARPDAU", "填充率", "展示率", "展示次数", "展示 / DAU", "CTR"],
+      "languagesTitle": "十二种语言"
+    },
+    "pricing": {
+      "title": "免费使用。Pro 去除广告。",
+      "free": "免费",
+      "freeItems": [
+        "概览、应用、国家和网络",
+        "演示数据，或你的真实 LevelPlay 账号",
+        "含广告，观看一次激励视频即可获得 1 小时无广告"
+      ],
+      "pro": "Pro，一次购买，无需订阅",
+      "proItems": ["无广告", "自定义提醒", "PDF 和 CSV 报告"],
+      "price": "价格显示在 App Store 中。"
+    },
+    "cta": {
+      "title": "把你的 LevelPlay 数据装进 iPhone。",
+      "qrAlt": "可打开 App Store 页面的二维码",
+      "qrText": "用 iPhone 扫描即可打开 App Store。"
+    }
+  }
+}

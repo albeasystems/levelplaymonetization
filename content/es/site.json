@@ -1,0 +1,98 @@
+{
+  "name": "Español",
+  "htmlLang": "es",
+  "dir": "ltr",
+  "ui": {
+    "home": "Inicio de levelplaymonetization",
+    "navPrimary": "Principal",
+    "navSections": "Secciones",
+    "navLegal": "Legal",
+    "navFooter": "Pie de página",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "language": "Idioma",
+    "getApp": "Descarga la app gratis",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "support": "Soporte",
+    "disclaimer": "levelplaymonetization es una app independiente. No está afiliada a Unity ni a LevelPlay."
+  },
+  "landing": {
+    "title": "levelplaymonetization · Analítica de ingresos publicitarios para iPhone",
+    "description": "Ingresos, eCPM, ARPDAU y tasa de relleno de Unity LevelPlay, por app, tipo de anuncio, red y país. Las credenciales se quedan en el llavero de tu iPhone.",
+    "ogDescription": "Descubre lo que gana realmente cada anuncio. Analítica de ingresos publicitarios para iPhone.",
+    "nav": { "privacy": "Privacidad", "breakdowns": "Desgloses", "tools": "Herramientas", "pro": "Pro" },
+    "hero": {
+      "title": "Sabe lo que ganan tus anuncios, país por país.",
+      "text": "Para editores de Unity LevelPlay. Ingresos, eCPM y tasa de relleno por app, red y país. Tus claves se quedan en tu llavero.",
+      "altApps": "Pantalla Apps con cada app, sus ingresos, eCPM, tasa de relleno y mezcla de tipos de anuncio",
+      "altOverview": "Pantalla Resumen con los ingresos semanales y un gráfico apilado por tipo de anuncio"
+    },
+    "attention": {
+      "label": "eCPM de Unity Ads en Estados Unidos",
+      "note": "Una alerta del Resumen, mostrada con datos de demostración.",
+      "line1": "Ábrela.",
+      "line2": "Mira qué ha cambiado.",
+      "text": "El Resumen empieza por lo que requiere atención: una caída del eCPM en un país, tu mejor mercado por ARPDAU, cada uno con los números que lo respaldan.",
+      "altBreakdown": "Países principales e ingresos por tipo de anuncio, cada uno con su variación respecto al periodo anterior",
+      "altAttention": "Qué requiere atención: el eCPM de Unity Ads en Estados Unidos ha bajado un 39 por ciento"
+    },
+    "privacy": {
+      "title1": "Tus claves se quedan ",
+      "title2": "en tu iPhone.",
+      "items": [
+        { "t": "Primero, datos de demostración", "d": "Se abre con datos de demostración para que puedas explorar antes de conectar nada." },
+        { "t": "Solo en el llavero", "d": "Tu Secret Key y tu Refresh Token de LevelPlay se guardan en el llavero del iPhone." },
+        { "t": "Sin cuenta con nosotros", "d": "No hay servidor. La app habla con LevelPlay directamente desde tu dispositivo." },
+        { "t": "Con qué más se conecta", "d": "Los tipos de cambio vienen de frankfurter.dev. Los SDK de anuncios de la versión gratuita siguen sus propias políticas y se te pide consentimiento." }
+      ],
+      "link": "Lee la Política de privacidad completa"
+    },
+    "breakdowns": {
+      "title": "Todos los cortes de tus ingresos.",
+      "text": "Cambia entre hoy, 7, 30 y 90 días, filtra por app o tipo de anuncio y compara con el periodo anterior.",
+      "legendLabel": "Tipos de anuncio, con los colores usados en los gráficos",
+      "banner": "Banner",
+      "interstitial": "Intersticial",
+      "rewarded": "Recompensado",
+      "screens": "Pantallas",
+      "cuts": [
+        { "img": "apps", "title": "Apps", "text": "Cada app con su tendencia, mezcla de tipos de anuncio y métricas clave.", "alt": "Lista de apps" },
+        { "img": "app-detail", "title": "Detalle de app", "text": "Ingresos diarios apilados por banner, intersticial y recompensado.", "alt": "Detalle de Pixel Quest con gráfico de ingresos y métricas clave" },
+        { "img": "countries-map", "title": "Países", "text": "Un mapa dimensionado por ingresos, eCPM, ARPDAU o tasa de relleno.", "alt": "Mapa mundial con burbujas dimensionadas por los ingresos de cada país" },
+        { "img": "countries-matrix", "title": "App por país", "text": "La matriz que muestra dónde gana más cada app.", "alt": "Matriz de ingresos por app y país; más oscuro significa más alto" },
+        { "img": "networks", "title": "Redes", "text": "Cuota de ingresos y ranking de AdMob, Unity Ads y Meta Audience Network.", "alt": "Gráfico de cuota de ingresos y ranking de redes de AdMob, Unity Ads y Meta Audience Network" }
+      ]
+    },
+    "tools": {
+      "title": "Alertas, informes y las métricas que los sustentan.",
+      "alertsTitle": "Alertas cuando una cifra cae",
+      "alertsText": "Crea una regla como «el eCPM baja un 20 %», para cualquier app, país, red o tipo de anuncio. Incluido en Pro.",
+      "alertsAlt": "Editor de reglas de alerta: métrica eCPM, condición baja, valor 20 por ciento",
+      "reportsTitle": "Informes en PDF y CSV",
+      "reportsText": "Comparte un informe de monetización claro con ingresos, métricas y lo que requiere atención. Incluido en Pro.",
+      "reportsAlt": "Vista previa del informe de monetización con gráfico de ingresos y métricas clave",
+      "metricsTitle": "Siete métricas, todas explicadas",
+      "metricsText": "Toca el icono de información en cualquier pantalla para ver cómo se calcula una métrica.",
+      "metrics": ["eCPM", "ARPDAU", "Tasa de relleno", "Tasa de muestra", "Impresiones", "Impr. / DAU", "CTR"],
+      "languagesTitle": "Doce idiomas"
+    },
+    "pricing": {
+      "title": "Gratis. Pro quita los anuncios.",
+      "free": "Gratis",
+      "freeItems": [
+        "Resumen, Apps, Países y Redes",
+        "Datos de demostración o tu cuenta real de LevelPlay",
+        "Anuncios, con un vídeo recompensado que te da 1 hora sin anuncios"
+      ],
+      "pro": "Pro, una sola compra, sin suscripción",
+      "proItems": ["Sin anuncios", "Alertas personalizadas", "Informes en PDF y CSV"],
+      "price": "El precio se muestra en la App Store."
+    },
+    "cta": {
+      "title": "Lleva tus datos de LevelPlay a tu iPhone.",
+      "qrAlt": "Código QR que abre la página de la App Store",
+      "qrText": "Escanéalo con tu iPhone para abrir la App Store."
+    }
+  }
+}

@@ -1,24 +1,20 @@
+// Turns raw-shots/<code>/<name>.png (from scripts/capture-shots.sh) into public/shots/<folder>/<name>.webp.
+// The folder is the language's URL slug, or "en" for English.
 import sharp from "sharp";
-import { readdirSync } from "node:fs";
+import { readdirSync, mkdirSync, existsSync } from "node:fs";
+import { LANGUAGES } from "./build-pages.mjs";
 
-const names = {
-  "shot-01": "overview",
-  "shot-02": "attention",
-  "shot-03": "breakdown",
-  "shot-04": "apps",
-  "shot-05": "app-detail",
-  "shot-06": "countries-map",
-  "shot-07": "countries-matrix",
-  "shot-08": "networks",
-  "shot-09": "report",
-  "shot-10": "alert",
-};
-
-for (const f of readdirSync("raw-shots")) {
-  const key = f.replace(".png", "");
-  if (!names[key]) continue;
-  await sharp(`raw-shots/${f}`)
-    .resize({ width: 780 })
-    .webp({ quality: 82 })
-    .toFile(`public/shots/${names[key]}.webp`);
+const folder = Object.fromEntries(LANGUAGES.map((l) => [l.code, l.slug || "en"]));
+let n = 0;
+for (const code of readdirSync("raw-shots", { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name)) {
+  if (!folder[code]) continue;
+  mkdirSync(`public/shots/${folder[code]}`, { recursive: true });
+  for (const f of readdirSync(`raw-shots/${code}`).filter((f) => f.endsWith(".png"))) {
+    await sharp(`raw-shots/${code}/${f}`)
+      .resize({ width: 780 })
+      .webp({ quality: 82 })
+      .toFile(`public/shots/${folder[code]}/${f.replace(".png", ".webp")}`);
+    n++;
+  }
 }
+console.log(`Wrote ${n} screenshots.`);
